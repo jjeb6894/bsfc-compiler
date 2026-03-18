@@ -1,0 +1,36 @@
+bsfc-compiler/
+│
+├── README.md
+├── Cargo.toml
+├── LICENSE
+│
+├── core/
+│   ├── mod.rs
+│   ├── ir.rs
+│   ├── lattice.rs
+│   ├── fixpoint.rs
+│
+├── transforms/
+│   ├── mod.rs
+│   ├── lowering.rs
+│   ├── lifting.rs
+│   ├── cost_model.rs
+│
+├── verification/
+│   ├── mod.rs
+│   ├── witness.rs
+│
+├── search/
+│   ├── mod.rs
+│   ├── explorer.rs
+│   ├── pruning.rs
+│
+├── benchmarks/
+│   ├── benchmark.md
+│   ├── results.json
+│
+├── cli/
+│   └── main.rs
+│
+└── examples/
+    └── vector_add.bsfc
